@@ -13,6 +13,7 @@ public class Prueba_Git {
 		int total1 = 0, total2 = 0, totalX = 0;
 		partido1 = 1;
 		while (partido1 <= TOTAL_PARTIDOS) {
+			System.out.println("Bienvenido al partido");
 			System.out.println("Introduce los goles del equipo local en el partido " + partido1);
 			golesLocal = Integer.parseInt(teclado.nextLine());
 			System.out.println("Introduce los goles del equipo visitante en el partido " + partido1);
